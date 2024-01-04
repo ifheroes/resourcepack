@@ -1,0 +1,94 @@
+{
+    "providers": [
+        {
+            "file": "ifheroes:font/logo.png",
+            "chars": [
+                "\uE238"
+            ],
+            "height": 50,
+            "ascent": 35,
+            "type": "bitmap"
+        },
+        {
+            "file": "ifheroes:font/provider.png",
+            "chars": [
+                "\uE236"
+            ],
+            "height": 45,
+            "ascent": 30,
+            "type": "bitmap"
+        },
+        {
+			"type": "bitmap",
+			"file": "ifheroes:font/inhaber.png",
+            "height": 8,
+            "ascent": 8,
+			"chars": [
+				"\uE065"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "ifheroes:font/team.png",
+            "height": 8,
+            "ascent": 8,
+			"chars": [
+				"\uE1EC"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "ifheroes:font/moderator.png",
+            "height": 8,
+            "ascent": 8,
+			"chars": [
+				"\u2002"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "ifheroes:font/ask.png",
+            "height": 8,
+            "ascent": 8,
+			"chars": [
+				"\uE1E4"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "ifheroes:font/vip.png",
+            "height": 8,
+            "ascent": 8,
+			"chars": [
+				"\uE1B7"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "ifheroes:font/vets.png",
+            "height": 8,
+            "ascent": 8,
+			"chars": [
+				"\uE1EA"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "ifheroes:font/premium.png",
+            "height": 8,
+            "ascent": 8,
+			"chars": [
+				"\uE250"
+			]
+		},
+        {
+			"type": "bitmap",
+			"file": "ifheroes:font/spieler.png",
+            "height": 8,
+            "ascent": 8,
+			"chars": [
+				"\u191c"
+			]
+		}
+    ]
+}
