@@ -3,7 +3,7 @@ Offizielles Resourcepack für den Infinityheroes Minecraft Server
 
 ## Tablist und Rang Icons
 
-|Anzeige | Unicode | UTF-8 Format | Anzeige |
+|Beschreibung | Unicode | UTF-8 Format | Anzeige |
 |--|--|--|--|
 | Tablist Logo Header |\uE238 ||logo.png|
 | Tablist Footer |\uE236 ||provider.png|
