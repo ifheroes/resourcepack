@@ -2,25 +2,40 @@
   "model": {
     "type": "range_dispatch",
     "property": "custom_model_data",
-    "index":0,
-    "entries": [{
-      "threshold":1,
-      "model": {
-        "type": "model",
-        "model": "item/basket"
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "item/basket"
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "item/basket_open"
+        }
       }
-      }],
-
+    ],
     "fallback": {
       "type": "model",
       "model": "item/blaze_rod"
     },
     "cases": [
       {
-        "when": "1",
+        "when": "2",
         "model": {
           "type": "model",
           "model": "item/basket"
+        }
+      },
+      {
+        "when": "1",
+        "model": {
+          "type": "model",
+          "model": "item/basket_open"
         }
       }
     ]
