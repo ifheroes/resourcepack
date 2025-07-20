@@ -1,0 +1,31 @@
+on: 
+  push: 
+    branches:
+    - main
+
+jobs: 
+  create_pack_zip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v3
+
+      - name: create dist file
+        run: mkdir -p dist
+
+      - name: delete ZIP if exist
+        run: rm -f dist/latest_pack.zip
+
+      - name: only zip pack content not folder
+        run: |
+          cd pack
+          zip -r ../dist/latest_pack.zip ./*
+          
+      - name: create release on repo
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          files: dist/latest_pack.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
